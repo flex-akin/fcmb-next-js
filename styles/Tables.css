@@ -1,0 +1,38 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    color: #292D32;
+    text-align: left;
+    padding: 10px 4px;
+    border: 0;
+
+  }
+
+  th {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    color: #fff;
+    padding: 6px;
+
+  }
+
+  td:not(.action) {
+    max-width: 15ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .action {
+    max-width: 80px;
+    /* overflow: hidden; */
+  }
+  tr:nth-child(even) {
+    background-color: #f2f1f1;
+  }
